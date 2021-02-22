@@ -4,6 +4,7 @@
 12020067	Sayantika Banik	
 12020015	Mohua Sinha	
 12020044	Supriya Maheshwari	
+12020077	Arun Kumar
 
 # Part 1:
 From this page: https://www.espncricinfo.com/series/icc-cricket-world-cup-2019-1144415/match-results,
@@ -44,8 +45,8 @@ and extracted the following fields:
 -This is a combined code of Scrapy and Selenium.
 -All the fields are fetched using scrapy but we faced issue of getting "Lazyimage" for the picture of the player_of_match. To meet that , selenium code is appended.
 -The missing values in Scrapy are fetched as blanks.
--The files are named as group7_matchDetails.py ,group7_matchDetails.tsv and settings.py
-
+-The files are named as group7_matchDetails.py ,group7_matchDetails.tsv and group7_settings_2.py
+-"group7_settings_2.py" This is the settings file used for the spider "group7_matchDetails"
 
 ## Part 3:
 
@@ -67,8 +68,10 @@ extracted the following:
 11. Country of the player.
 
 -The files are named as group7_playerDetails.py ,group7_playerDetails.tsv and settings.py
+--"group7_settings_3.py" This is the settings file used for the spider "group7_playerDetails".
+-Have fetched all the players from scorecards including who batted and who did not bat.
 
 # Settings File Details
 
 -We are fetching the output files as tsv files.
-@Also, we have set ROBOTSTXT_OBEY = False to obey robots.txt rules
+-Also, we have set ROBOTSTXT_OBEY = False to obey robots.txt rules
