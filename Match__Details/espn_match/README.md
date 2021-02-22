@@ -1,5 +1,4 @@
-## ESPN-Data-Scraping
-# Collecting Cricket World Cup Data for 2019
+# ESPN-Data-Scraping :# Collecting Cricket World Cup Data for 2019
 
 # Group 7 :
 12020067	Sayantika Banik	
